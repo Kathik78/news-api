@@ -4,7 +4,7 @@ const newsContainer = document.getElementById('news-container');
 const shimmerContainer = document.getElementById('shimmer-container');
 const navBtns = document.querySelectorAll('.nav-btn');
 
-const API_KEY = 'f883956d3b32447bbf73690222d41cf8';
+const API_KEY = '6hPTKDip1AXnwFb1iicwShoghYU09B';
 
 const fetchNews = async (url) => {
     displayShimmer();
