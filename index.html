@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Global Chronicle | News</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body></body>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>The Global Chronicle</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search news">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><button class="nav-btn" data-category="general">News</button></li>
+                <li><button class="nav-btn" data-category="science">Earth</button></li>
+                <li><button class="nav-btn" data-category="sports">Sport</button></li>
+                <li><button class="nav-btn" data-category="business">Economy</button></li>
+                <li><button class="nav-btn" data-category="politics">Politics</button></li>
+                <li><button class="nav-btn" data-category="technology">Analytics</button></li>
+                <li><button class="nav-btn" data-category="other">Other</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="news-container" class="grid-container"></div>
+        <div id="shimmer-container" class="grid-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
 </html>
